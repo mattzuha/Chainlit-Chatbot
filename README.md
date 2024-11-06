@@ -49,13 +49,13 @@ For document-based interactions, run the following command to ingest documents a
 python ingest.py
 ```
 
-### 🖥️ Running Locally
+## 🖥️ Running Locally
 ```shell
 # Run the main Chainlit app
 chainlit run model.py
 ```
 
-### 📦 Running with Docker
+## 📦 Running with Docker
 
 1. **Build Docker Image:**
    ```shell
