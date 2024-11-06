@@ -14,7 +14,7 @@ This chatbot is designed to answer user questions based on both interactive conv
 You can access this app through this link: [chainlit-chatbot](https://www.facebook.com/)
 
 ## 🚀 Getting start
-Follow these instructions to set up and run the chatbot locally.
+Follow these instructions to set up and run the chatbot locally. \
 Prerequisites
 -  **Python:** Ensure you have Python 3.7+ installed.
 -  **Ollama 3.1:** Download and install Ollama 3.1 from their official site.
@@ -26,16 +26,27 @@ git clone https://github.com/mattzuha/TestChat4.git
 cd TestChat4
 ```
 
-1. Install the required dependencies:
+2. Install the required dependencies:
 ```shell
 pip install -r requirements.txt
 ```
 
-1. Download and start the Ollama model in your command line:
+3. Download and start the Ollama model in your command line:
 ```shell
 ollama run llmama 3.1
 ```
 
+Setting Up the Vector Database \
+To enable document-based interactions, run the following command to ingest your documents and create a vector database:
+```shell
+python ingest.py
+```
+
+Running the App \
+Start the Chanlit app by running the main script:
+```shell
+chanlit run Home.py
+```
 
 ## 🖥️ Running locally
 ```shell
