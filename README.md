@@ -1,5 +1,5 @@
 
-# 🤖 Custom Data Chatbot with Ollama 3.1 8b
+# 🤖 Custom Data Chatbot with Ollama 3.1
 
 This project presents a multi-page chatbot app enabling users to interact with a Language Model (LLM) for diverse use cases, including Q&A from custom documents. The app is built with **Langchain** and **Chainlit** to make it accessible and user-friendly.
 
