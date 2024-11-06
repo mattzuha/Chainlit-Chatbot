@@ -15,10 +15,26 @@ You can access this app through this link: [chainlit-chatbot](https://www.facebo
 
 ## 🚀 Getting start
 Follow these instructions to set up and run the chatbot locally.
-
 Prerequisites
 -  **Python:** Ensure you have Python 3.7+ installed.
 -  **Ollama 3.1:** Download and install Ollama 3.1 from their official site.
+
+Installation
+1. Clone the repository:
+```shell
+git clone https://github.com/mattzuha/TestChat4.git
+cd TestChat4
+```
+
+1. Install the required dependencies:
+```shell
+pip install -r requirements.txt
+```
+
+1. Download and start the Ollama model in your command line:
+```shell
+ollama run llmama 3.1
+```
 
 
 ## 🖥️ Running locally
