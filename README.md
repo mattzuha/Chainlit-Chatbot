@@ -72,7 +72,7 @@ chainlit run model.py
 
 ## 💁 Authors
 - **10421091 - Nguyen Nguyen Minh**
-- **10...... - Nguyen Khanh Hoang Minh**
+- **10421114- Nguyen Khanh Hoang Minh**
 
 --- 
 
