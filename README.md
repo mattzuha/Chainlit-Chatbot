@@ -55,7 +55,7 @@ python ingest.py
 chainlit run model.py
 ```
 
-## 📦 Running with Docker
+## 🐳 Running with Docker
 
 1. **Build Docker Image:**
    ```shell
