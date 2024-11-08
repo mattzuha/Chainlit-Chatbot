@@ -40,7 +40,7 @@ Follow these steps to set up and run the chatbot locally.
 
 3. **Start Ollama Model:**
    ```shell
-   ollama run llmama 3.1
+   ollama run llama 3.1
    ```
 
 ### ⚙️ Setting Up the Vector Database
