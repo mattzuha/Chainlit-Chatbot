@@ -34,7 +34,7 @@ Follow these steps to set up and run the chatbot locally:
 1. **Clone the repository:**  
    ```shell  
    git clone https://github.com/mattzuha/Chainlit-Chatbot.git  
-   cd TestChat4  
+   cd Chainlit-Chatbot  
    ```  
 
 2. **Install dependencies:**  
