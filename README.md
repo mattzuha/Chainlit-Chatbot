@@ -1,7 +1,7 @@
 
 # 🤖 **Custom Data Chatbot with Ollama 3.1 8b**  
 
-This project presents a **multi-page chatbot app** enabling users to interact with a **Language Model (LLM)** for diverse use cases, specifically answering queries based on the **Encyclopedia of Human Development**. Built with **LangChain** and **Chainlit**, the app is designed to be accessible and user-friendly.  
+This project presents a **chatbot** enabling users to interact with a **Language Model (LLM)** for diverse use cases, specifically answering queries based on the **Encyclopedia of Human Development**. Built with **LangChain** and **Chainlit**, the app is designed to be accessible and user-friendly.  
 
 ---
 
