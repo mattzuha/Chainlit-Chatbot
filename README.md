@@ -20,23 +20,22 @@ This chatbot is designed to answer user queries using:
 ## 🚀 Getting Started
 Follow these steps to set up and run the chatbot locally.
 
-Prerequisites
+# Prerequisites
 -  **Python:** Ensure you have Python 3.7+ installed.
 -  **Ollama 3.1:** Download and install Ollama 3.1 from their official site.
 
-
-## 🖥️ Running locally
+# Initial setup
 ```shell
-python ingest.py
+# run ingest.py to create vector store
+$ python ingest.py
+
+# one cmd and download llama 3.1
+$ ollama run llama3.1 
 ```
 
 ## 🖥️ Running Locally
 ```shell
-# To generate image
-$ docker build -t langchain-chatbot .
-
-# To run the docker container
-$ docker run -p 8501:8501 langchain-chatbot
+$ chainlit run model.py
 ```
 
 ## 💁 Authors
