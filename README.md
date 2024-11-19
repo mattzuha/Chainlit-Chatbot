@@ -1,42 +1,64 @@
-# Custom Data Chatbot with Ollama 3.1 8b
-This project demonstrates a multi-page chatbot app that allows users to interact with a Language Model (LLM) for various use cases, including chatting with custom documents. The app is built using Langchain and Chanlit, making it accessible and easy to use.
 
-## Useful Links 🔗
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+# 🤖 Custom Data Chatbot with Ollama 3.1
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## 💬 Chatbot use cases
-This chatbot is designed to answer user questions based on both interactive conversations and context extracted from custom documents (PDF and TXT files).
-
-## <img src="https://pbs.twimg.com/profile_images/1657041791613370369/sm9jmDm3_400x400.jpg" width="40" height="22"> Chainlit App
-You can access this app through this link: [chainlit-chatbot](https://www.facebook.com/)
-
-## 🚀 Getting start
-Follow these instructions to set up and run the chatbot locally.
-
-Prerequisites
--  **Python:** Ensure you have Python 3.7+ installed.
--  **Ollama 3.1:** Download and install Ollama 3.1 from their official site.
+This project presents a multi-page chatbot app enabling users to interact with a Language Model (LLM) for diverse use cases, including Q&A from custom documents. The app is built with **Langchain** and **Chainlit** to make it accessible and user-friendly.
 
 
-## 🖥️ Running locally
+## 🔗 Useful Links 
+- **[Chainlit Documentation](https://docs.chainlit.io)** 📚 - Get started with comprehensive documentation.
+- **[Chainlit Discord](https://discord.gg/k73SQ3FyUh)** 💬 - Join our community for support, project sharing, and networking!
+
+We’re excited to see what you create with Chainlit! Happy coding! 💻😊
+
+
+## 💬 Chatbot Use Cases
+This chatbot is designed to answer user queries using:
+- **Conversational Interactions** - Engage directly with the chatbot.
+- **Document-based Context** - Answers from custom documents (PDF & TXT).
+
+
+## 🚀 Getting Started
+Follow these steps to set up and run the chatbot locally.
+
+### Prerequisites
+- **Python 3.7+** - Make sure you have Python installed.
+- **Ollama 3.1** - Download and install from [Ollama's official site](https://www.ollama.com).
+
+
+### 🛠️ Installation
+
+1. **Clone the repository:**
+   ```shell
+   git clone https://github.com/mattzuha/Chainlit-Chatbot.git
+   cd Chainlit-Chatbot
+   ```
+
+2. **Install dependencies:**
+   ```shell
+   pip install -r requirements.txt
+   ```
+
+3. **Start Ollama Model:**
+   ```shell
+   ollama run llmama 3.1
+   ```
+
+### ⚙️ Setting Up the Vector Database
+For document-based interactions, run the following command to ingest documents and create a vector database:
 ```shell
-# Run main streamlit app
-$ chainlit run model.py
+python ingest.py
 ```
 
-## 📦 Running with Docker
+## 🖥️ Running Locally
 ```shell
-# To generate image
-$ docker build -t langchain-chatbot .
-
-# To run the docker container
-$ docker run -p 8501:8501 langchain-chatbot
+# Run the main Chainlit app
+chainlit run model.py
 ```
 
-## 💁 Author
-10421091 - Nguyen Nguyen Minh
-10...... - Nguyen Khanh Hoang Minh
+## 💁 Authors
+- **10421091 - Nguyen Nguyen Minh**
+- **10421114- Nguyen Khanh Hoang Minh**
 
+--- 
+
+Hope you enjoy using this chatbot! 🎉

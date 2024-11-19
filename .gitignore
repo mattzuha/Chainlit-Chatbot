@@ -86,5 +86,4 @@ pylint-report.txt
 # If using Poetry for dependency management
 poetry.lock
 
-vectorstores/
-
+.env
