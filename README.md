@@ -20,16 +20,16 @@ This chatbot is designed to answer user queries using:
 ## 🚀 Getting Started
 Follow these steps to set up and run the chatbot locally.
 
-# Prerequisites
+### Prerequisites
 -  **Python:** Ensure you have Python 3.7+ installed.
 -  **Ollama 3.1:** Download and install Ollama 3.1 from their official site.
 
-# Initial setup
+### Initial setup
 ```shell
 # run ingest.py to create vector store
 $ python ingest.py
 
-# one cmd and download llama 3.1
+# open command prompt and download llama 3.1
 $ ollama run llama3.1 
 ```
 
