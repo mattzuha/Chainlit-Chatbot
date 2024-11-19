@@ -20,39 +20,23 @@ This chatbot is designed to answer user queries using:
 ## 🚀 Getting Started
 Follow these steps to set up and run the chatbot locally.
 
-### Prerequisites
-- **Python 3.7+** - Make sure you have Python installed.
-- **Ollama 3.1** - Download and install from [Ollama's official site](https://www.ollama.com).
+Prerequisites
+-  **Python:** Ensure you have Python 3.7+ installed.
+-  **Ollama 3.1:** Download and install Ollama 3.1 from their official site.
 
 
-### 🛠️ Installation
-
-1. **Clone the repository:**
-   ```shell
-   git clone https://github.com/mattzuha/Chainlit-Chatbot.git
-   cd Chainlit-Chatbot
-   ```
-
-2. **Install dependencies:**
-   ```shell
-   pip install -r requirements.txt
-   ```
-
-3. **Start Ollama Model:**
-   ```shell
-   ollama run llmama 3.1
-   ```
-
-### ⚙️ Setting Up the Vector Database
-For document-based interactions, run the following command to ingest documents and create a vector database:
+## 🖥️ Running locally
 ```shell
 python ingest.py
 ```
 
 ## 🖥️ Running Locally
 ```shell
-# Run the main Chainlit app
-chainlit run model.py
+# To generate image
+$ docker build -t langchain-chatbot .
+
+# To run the docker container
+$ docker run -p 8501:8501 langchain-chatbot
 ```
 
 ## 💁 Authors
